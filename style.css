@@ -1,0 +1,195 @@
+body {
+  background-image: url(Images/ch.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+}
+
+.dark1 {
+  margin-right: 50px;
+  background-color: rgb(249, 247, 250);
+  color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: 5px solid rgb(252, 250, 250);
+  padding: 5px;
+  background: transparent;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header1 {
+  background-color: azure;
+  text-align: center;
+  height: 50px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 5px solid rgb(252, 252, 250);
+  margin-right: 10px;
+  background: transparent;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+  text-decoration-color: beige;
+  background: transparent;
+}
+
+.btn {
+  background-color: rgb(249, 247, 250);
+  color: black;
+  font-size: large;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border: 5px solid rgb(252, 250, 250);
+  background: transparent;
+}
+
+.card {
+  background-image: url(Images/ch.jpg);
+  width: 450px;
+  height: 450px;
+  margin-top: 70px;
+  color: black;
+  margin-left: 540px;
+  border-radius: 10;
+  opacity: 0;
+  border: 4px solid white;
+  border-radius: 25px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+}
+
+.btn1 {
+  color: black;
+  margin: 10px;
+  width: 100px;
+  padding: 7px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.card-time {
+  margin: 10px;
+  padding: 7px;
+  border: none;
+  background: transparent;
+}
+
+.card-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  font-size: 30px;
+  background: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.description {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  background: transparent;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: transparent;
+}
+
+.card-left {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+}
+
+.humidity {
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+  background: transparent;
+  margin-bottom: 60px;
+  width: 100px;
+}
+
+.wind {
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+  background: transparent;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.image {
+  width: 70px;
+  background: transparent;
+}
+
+.temperature {
+  background: transparent;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.dark {
+  background-image: url(Images/th.jpg);
+}
+
+.dark .dark1 {
+  color: white;
+  border: 2px solid white;
+}
+
+.dark ::placeholder {
+  color: white;
+}
+
+.dark .btn {
+  color: white;
+}
+
+.dark .card {
+  background-color: white;
+}
+
+.dark .header1 {
+  color: white;
+}
+
+/* .btn:hover {
+  background-color: orange;
+  transition: 0.7s;
+} */
+
+.dark1:hover {
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+}
